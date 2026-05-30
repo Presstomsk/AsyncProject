@@ -1,0 +1,14 @@
+E:\Рома\AsyncProject\AsyncProj\bin\Debug\net10.0\AsyncProj.exe
+E:\Рома\AsyncProject\AsyncProj\bin\Debug\net10.0\AsyncProj.deps.json
+E:\Рома\AsyncProject\AsyncProj\bin\Debug\net10.0\AsyncProj.runtimeconfig.json
+E:\Рома\AsyncProject\AsyncProj\bin\Debug\net10.0\AsyncProj.dll
+E:\Рома\AsyncProject\AsyncProj\bin\Debug\net10.0\AsyncProj.pdb
+E:\Рома\AsyncProject\AsyncProj\obj\Debug\net10.0\AsyncProj.GeneratedMSBuildEditorConfig.editorconfig
+E:\Рома\AsyncProject\AsyncProj\obj\Debug\net10.0\AsyncProj.AssemblyInfoInputs.cache
+E:\Рома\AsyncProject\AsyncProj\obj\Debug\net10.0\AsyncProj.AssemblyInfo.cs
+E:\Рома\AsyncProject\AsyncProj\obj\Debug\net10.0\AsyncProj.csproj.CoreCompileInputs.cache
+E:\Рома\AsyncProject\AsyncProj\obj\Debug\net10.0\AsyncProj.dll
+E:\Рома\AsyncProject\AsyncProj\obj\Debug\net10.0\refint\AsyncProj.dll
+E:\Рома\AsyncProject\AsyncProj\obj\Debug\net10.0\AsyncProj.pdb
+E:\Рома\AsyncProject\AsyncProj\obj\Debug\net10.0\AsyncProj.genruntimeconfig.cache
+E:\Рома\AsyncProject\AsyncProj\obj\Debug\net10.0\ref\AsyncProj.dll
