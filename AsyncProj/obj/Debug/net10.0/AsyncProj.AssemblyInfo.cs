@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AsyncProj")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1fe17bd4df039a580049f5621ffe601618eda30f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AsyncProj")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AsyncProj")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
