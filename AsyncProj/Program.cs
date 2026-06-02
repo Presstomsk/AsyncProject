@@ -1,6 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Runtime.CompilerServices;
+using System.Threading;
 using System.Threading.Tasks;
 
 internal class Program
@@ -21,6 +24,31 @@ internal class Program
 
         #endregion
 
+        #region asynchronous streams
+
+        await foreach (int value in GetValuesAsync())
+        {
+            Console.WriteLine(value);
+        }
+
+        using (var cts = new CancellationTokenSource(500))
+        {
+            CancellationToken token = cts.Token;
+
+            try
+            {
+            await foreach (int result in GetValuesAsync().WithCancellation(token))
+            {
+                Console.WriteLine(result);
+            }
+            }
+            catch (TaskCanceledException)
+            {
+                //
+            }
+        }
+
+        #endregion
         
     }
         
@@ -89,5 +117,14 @@ internal class Program
         })];
 
         await Task.WhenAll(processingTasks);
+    }
+
+    static async IAsyncEnumerable<int> GetValuesAsync([EnumeratorCancellation] CancellationToken token = default)
+    {
+        for (int i=0; i !=10; ++i)
+        {           
+            await Task.Delay(i*1000, token);
+            yield return i;
+        }      
     }    
 }
