@@ -37,10 +37,10 @@ internal class Program
 
             try
             {
-            await foreach (int result in GetValuesAsync().WithCancellation(token))
-            {
-                Console.WriteLine(result);
-            }
+                await foreach (int result in GetValuesAsync().WithCancellation(token))
+                {
+                    Console.WriteLine(result);
+                }
             }
             catch (TaskCanceledException)
             {
@@ -49,7 +49,16 @@ internal class Program
         }
 
         #endregion
-        
+
+        #region parallel programming
+
+        int[] t = Enumerable.Range(0,1000).AsParallel().Select(x =>
+        {            
+            Console.WriteLine($"ThreadId: {Environment.CurrentManagedThreadId}, IsThreadPool: {Thread.CurrentThread.IsThreadPoolThread}");
+            return x + x;            
+        }).ToArray();
+
+        #endregion        
     }
         
     // Передача информации о ходе выполнения операции

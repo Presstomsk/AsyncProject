@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Рома\\AsyncProject\\AsyncProj\\AsyncProj.csproj": {}
+    "e:\\Рома\\AsyncProject\\AsyncProj\\AsyncProj.csproj": {}
   },
   "projects": {
-    "E:\\Рома\\AsyncProject\\AsyncProj\\AsyncProj.csproj": {
+    "e:\\Рома\\AsyncProject\\AsyncProj\\AsyncProj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Рома\\AsyncProject\\AsyncProj\\AsyncProj.csproj",
+        "projectUniqueName": "e:\\Рома\\AsyncProject\\AsyncProj\\AsyncProj.csproj",
         "projectName": "AsyncProj",
-        "projectPath": "E:\\Рома\\AsyncProject\\AsyncProj\\AsyncProj.csproj",
+        "projectPath": "e:\\Рома\\AsyncProject\\AsyncProj\\AsyncProj.csproj",
         "packagesPath": "C:\\Users\\Roma\\.nuget\\packages\\",
-        "outputPath": "E:\\Рома\\AsyncProject\\AsyncProj\\obj\\",
+        "outputPath": "e:\\Рома\\AsyncProject\\AsyncProj\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Roma\\AppData\\Roaming\\NuGet\\NuGet.Config"
